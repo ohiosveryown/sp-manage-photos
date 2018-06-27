@@ -2,6 +2,7 @@
 <template>
   <div id="galleries">
     <!-- <h1>App Logic</h1> -->
+    <navigation/>
     <router-view/>
   </div>
 </template>
@@ -16,9 +17,9 @@
 
 <!-- logic -->
 <script>
-  // import Navigation from '@/components/Navigation.vue'
-  //
-  // export default {
-  //   components: { Navigation },
-  // }
+  import navigation from '@/components/Navigation.vue'
+
+  export default {
+    components: { navigation },
+  }
 </script>

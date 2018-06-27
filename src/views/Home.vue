@@ -3,6 +3,7 @@
   <div id="galleries">
     <!-- <h2>Hello (Home) World</h2> -->
     <Galleries/>
+    <albums/>
   </div>
 </template>
 
@@ -11,14 +12,19 @@
 <style lang="scss" scoped>
   @import '../assets/style/mq';
 
+  #galleries {
+    display: flex;
+  }
+
 </style>
 
 
 <!-- logic -->
 <script>
   import Galleries from '@/components/Galleries.vue'
+  import albums from '@/components/Albums.vue'
 
   export default {
-    components: { Galleries },
+    components: { Galleries, albums },
   }
 </script>
