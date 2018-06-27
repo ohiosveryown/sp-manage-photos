@@ -2,6 +2,7 @@
 <template>
   <div id="galleries">
     <h2>Hello (Home) World</h2>
+    <Galleries/>
   </div>
 </template>
 
@@ -15,9 +16,9 @@
 
 <!-- logic -->
 <script>
-  // import Navigation from '@/components/Navigation.vue'
-  //
-  // export default {
-  //   components: { Navigation },
-  // }
+  import Galleries from '@/components/Galleries.vue'
+
+  export default {
+    components: { Galleries },
+  }
 </script>
