@@ -1,7 +1,7 @@
 <!-- layout -->
 <template>
   <div id="galleries">
-    <h1>App Logic</h1>
+    <!-- <h1>App Logic</h1> -->
     <router-view/>
   </div>
 </template>
