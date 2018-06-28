@@ -1,7 +1,6 @@
 <!-- layout -->
 <template>
   <div id="galleries">
-    <!-- <h2>Hello (Home) World</h2> -->
     <Galleries/>
     <albums/>
   </div>
