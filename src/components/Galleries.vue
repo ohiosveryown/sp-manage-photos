@@ -214,7 +214,7 @@
   .plan-details {
     position: absolute;
     bottom: 32px;
-    max-width: calc(335px - 56px);
+    max-width: calc(335px - 64px);
     width: calc(25vw - 56px);
   }
 

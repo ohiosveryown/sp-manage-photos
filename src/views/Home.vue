@@ -2,7 +2,8 @@
 <template>
   <div id="galleries">
     <Galleries/>
-    <albums/>
+    <!-- <albums/> -->
+    <album/>
   </div>
 </template>
 
@@ -22,8 +23,9 @@
 <script>
   import Galleries from '@/components/Galleries.vue'
   import albums from '@/components/Albums.vue'
+  import album from '@/components/Album.vue'
 
   export default {
-    components: { Galleries, albums },
+    components: { Galleries, albums, album },
   }
 </script>
