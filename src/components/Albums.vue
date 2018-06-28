@@ -1,6 +1,6 @@
 <!-- layout -->
 <template>
-  <div class="debug wrapper">
+  <div class="wrapper">
 
     <section class="albums">
 
@@ -123,6 +123,25 @@
     </section>
 
     <section class="photos">
+      <header style="padding-top: 73px;">
+        <h3 class="title mb-1 f-lg f-bold">Galleries</h3>
+        <!-- actions -->
+        <div class="actions">
+          <div class="pointer sorting">
+            <h5 class="mr-0 f-sm f-semi op-5 uc">sort:</h5>
+            <h5 class="f-sm f-semi uc">custom</h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+              <path fill="#353543" fill-rule="evenodd" d="M6.70710678,6.70710678 C6.88807119,6.52614237 7,6.27614237 7,6 L7,1 C7,0.44771525 6.55228475,-1.01453063e-16 6,0 C5.44771525,1.01453063e-16 5,0.44771525 5,1 L5,1 L5,5 L1,5 C0.44771525,5 -6.40303515e-18,5.44771525 6.123234e-17,6 L6.123234e-17,6 L6.123234e-17,6 C1.28867715e-16,6.55228475 0.44771525,7 1,7 L1,7 L6,7 C6.27614237,7 6.52614237,6.88807119 6.70710678,6.70710678 Z" transform="rotate(45 2.768 10.096)"/>
+            </svg>
+          </div>
+          <div class="pointer tools">
+            <h5 class="f-sm f-semi uc">album tools</h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+              <path fill="#353543" fill-rule="evenodd" d="M6.70710678,6.70710678 C6.88807119,6.52614237 7,6.27614237 7,6 L7,1 C7,0.44771525 6.55228475,-1.01453063e-16 6,0 C5.44771525,1.01453063e-16 5,0.44771525 5,1 L5,1 L5,5 L1,5 C0.44771525,5 -6.40303515e-18,5.44771525 6.123234e-17,6 L6.123234e-17,6 L6.123234e-17,6 C1.28867715e-16,6.55228475 0.44771525,7 1,7 L1,7 L6,7 C6.27614237,7 6.52614237,6.88807119 6.70710678,6.70710678 Z" transform="rotate(45 2.768 10.096)"/>
+            </svg>
+          </div>
+        </div>
+      </header>
       <photosOne/>
     </section>
 
@@ -137,24 +156,28 @@
 
   .wrapper {
     display: flex;
-    max-width: calc(100vw - 424px);
-    width: 75vw;
+    max-width: calc(100vw - 360px);
+    width: 88vw;
   }
 
   .albums {
     overflow-y: scroll;
     @include breakpoint(mdl) {
-      padding: 56px 24px 0 24px;
-      max-width: 300px; width: 25vw; height: 100vh;
+      padding: 56px 20px 0 24px;
+      max-width: 300px; width: 33vw; height: 100vh;
     }
   }
 
+  .photos { max-width: 90%; margin-left: 24px; }
+
   header {
+    // border: 1px solid;
     position: sticky;
     top: 0;
     z-index: var(--z4);
     margin-bottom: 16px;
     padding-top: 18px;
+    padding-right: 4px;
     padding-bottom: 16px;
   }
 

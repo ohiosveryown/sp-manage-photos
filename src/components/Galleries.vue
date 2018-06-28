@@ -121,8 +121,8 @@
   section {
     background: #f8f9f9;
     @include breakpoint(mdl) {
-      padding: 76px 24px 0 24px;
-      max-width: 424px; width: 25vw; height: 100vh;
+      padding: 76px 16px 0 24px;
+      max-width: 330px; width: 22vw; height: 100vh;
     }
   }
 
@@ -214,7 +214,7 @@
   .plan-details {
     position: absolute;
     bottom: 32px;
-    max-width: calc(424px - 56px);
+    max-width: calc(335px - 56px);
     width: calc(25vw - 56px);
   }
 
