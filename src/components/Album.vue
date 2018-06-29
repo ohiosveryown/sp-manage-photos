@@ -9,7 +9,7 @@
         <!-- actions -->
         <div class="mb-4 actions">
           <div class="pointer sorting">
-            <h5 class="mr-0 f-sm f-semi op-5 uc">sort by:</h5>
+            <h5 class="mr-0 f-sm f-semi op-5 uc">sort:</h5>
             <h5 class="f-sm f-semi uc">custom</h5>
             <svg style="transform: translateY(-2px);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
               <path fill="#353543" fill-rule="evenodd" d="M6.70710678,6.70710678 C6.88807119,6.52614237 7,6.27614237 7,6 L7,1 C7,0.44771525 6.55228475,-1.01453063e-16 6,0 C5.44771525,1.01453063e-16 5,0.44771525 5,1 L5,1 L5,5 L1,5 C0.44771525,5 -6.40303515e-18,5.44771525 6.123234e-17,6 L6.123234e-17,6 L6.123234e-17,6 C1.28867715e-16,6.55228475 0.44771525,7 1,7 L1,7 L6,7 C6.27614237,7 6.52614237,6.88807119 6.70710678,6.70710678 Z" transform="rotate(45 2.768 10.096)"/>
@@ -126,7 +126,7 @@
         <!-- actions -->
         <div class="mb-4 actions">
           <div class="pointer sorting">
-            <h5 class="mr-0 f-sm f-semi op-5 uc">sort by:</h5>
+            <h5 class="mr-0 f-sm f-semi op-5 uc">sort:</h5>
             <h5 class="f-sm f-semi uc">timestamp</h5>
             <svg style="transform: translateY(-2px);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
               <path fill="#353543" fill-rule="evenodd" d="M6.70710678,6.70710678 C6.88807119,6.52614237 7,6.27614237 7,6 L7,1 C7,0.44771525 6.55228475,-1.01453063e-16 6,0 C5.44771525,1.01453063e-16 5,0.44771525 5,1 L5,1 L5,5 L1,5 C0.44771525,5 -6.40303515e-18,5.44771525 6.123234e-17,6 L6.123234e-17,6 L6.123234e-17,6 C1.28867715e-16,6.55228475 0.44771525,7 1,7 L1,7 L6,7 C6.27614237,7 6.52614237,6.88807119 6.70710678,6.70710678 Z" transform="rotate(45 2.768 10.096)"/>
