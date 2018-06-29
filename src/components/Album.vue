@@ -127,13 +127,15 @@
         <div class="mb-4 actions">
           <div class="pointer sorting">
             <h5 class="mr-0 f-sm f-semi op-5 uc">sort by:</h5>
-            <h5 class="f-sm f-semi uc">custom</h5>
+            <h5 class="f-sm f-semi uc">timestamp</h5>
             <svg style="transform: translateY(-2px);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
               <path fill="#353543" fill-rule="evenodd" d="M6.70710678,6.70710678 C6.88807119,6.52614237 7,6.27614237 7,6 L7,1 C7,0.44771525 6.55228475,-1.01453063e-16 6,0 C5.44771525,1.01453063e-16 5,0.44771525 5,1 L5,1 L5,5 L1,5 C0.44771525,5 -6.40303515e-18,5.44771525 6.123234e-17,6 L6.123234e-17,6 L6.123234e-17,6 C1.28867715e-16,6.55228475 0.44771525,7 1,7 L1,7 L6,7 C6.27614237,7 6.52614237,6.88807119 6.70710678,6.70710678 Z" transform="rotate(45 2.768 10.096)"/>
             </svg>
           </div>
           <div class="pointer tools">
-            <h5 class="mr-0 f-sm f-semi uc">album tools</h5>
+            <h5 class="mr-3 f-sm f-semi uc">add photos</h5>
+            <h5 class="mr-3 f-sm f-semi uc">edit watermark</h5>
+            <h5 class="mr-0 f-sm f-semi uc">photo tools</h5>
             <svg style="transform: translateY(-2px);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
               <path fill="#353543" fill-rule="evenodd" d="M6.70710678,6.70710678 C6.88807119,6.52614237 7,6.27614237 7,6 L7,1 C7,0.44771525 6.55228475,-1.01453063e-16 6,0 C5.44771525,1.01453063e-16 5,0.44771525 5,1 L5,1 L5,5 L1,5 C0.44771525,5 -6.40303515e-18,5.44771525 6.123234e-17,6 L6.123234e-17,6 L6.123234e-17,6 C1.28867715e-16,6.55228475 0.44771525,7 1,7 L1,7 L6,7 C6.27614237,7 6.52614237,6.88807119 6.70710678,6.70710678 Z" transform="rotate(45 2.768 10.096)"/>
             </svg>
@@ -141,29 +143,138 @@
         </div>
       </header>
 
-      <p class="debug">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo urna molestie at elementum. Ipsum dolor sit amet consectetur adipiscing elit. At in tellus integer feugiat. Cras pulvinar mattis nunc sed. Vitae auctor eu augue ut lectus. Facilisi cras fermentum odio eu feugiat pretium. Turpis massa sed elementum tempus egestas sed. In aliquam sem fringilla ut. Nec feugiat in fermentum posuere urna. Risus sed vulputate odio ut enim blandit volutpat maecenas. Tortor id aliquet lectus proin nibh nisl condimentum. Tristique senectus et netus et. Accumsan lacus vel facilisis volutpat est. Orci dapibus ultrices in iaculis nunc sed augue lacus. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Tincidunt vitae semper quis lectus nulla at volutpat diam ut. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Cursus risus at ultrices mi tempus.
+      <div class="photo-wrapper">
+        <div class="img-wrapper">
+          <img src="../assets/img/01@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/02@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/03@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/04@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/05@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/06@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/07@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/08@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/09@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/10@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/11@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/12@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/13@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/14@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/15@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/16@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <!-- -->
+        <div class="img-wrapper">
+          <img src="../assets/img/01@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/02@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/03@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/04@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/05@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/06@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/07@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/08@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/09@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/10@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/11@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/12@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/13@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/14@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/15@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+        <div class="img-wrapper">
+          <img src="../assets/img/16@2x.jpg" alt="">
+          <span class="mt-1 op-6 f-sm">Zach_Cathy_Wedding_geodun-683.JPG</span>
+        </div>
+      </div>
 
-        Parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer. Quam quisque id diam vel quam elementum. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Velit scelerisque in dictum non. Lorem ipsum dolor sit amet. Tortor posuere ac ut consequat semper viverra. Enim sit amet venenatis urna. Purus non enim praesent elementum facilisis. Gravida arcu ac tortor dignissim. Eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Vehicula ipsum a arcu cursus vitae congue. Risus commodo viverra maecenas accumsan lacus vel facilisis. Sed risus ultricies tristique nulla aliquet enim. Tincidunt id aliquet risus feugiat in.
-
-        Arcu cursus vitae congue mauris rhoncus. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Arcu odio ut sem nulla. Sed odio morbi quis commodo odio. Senectus et netus et malesuada fames ac turpis. Senectus et netus et malesuada fames. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Venenatis cras sed felis eget velit aliquet sagittis. Eget mauris pharetra et ultrices neque ornare aenean. Diam maecenas ultricies mi eget mauris. Egestas sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor eget dolor morbi non arcu risus quis varius quam. Erat nam at lectus urna duis. Nibh tellus molestie nunc non. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Tincidunt id aliquet risus feugiat in ante metus. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Id velit ut tortor pretium viverra suspendisse potenti nullam ac.
-
-        At tempor commodo ullamcorper a lacus vestibulum sed arcu non. Leo vel orci porta non pulvinar neque laoreet. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Tempor orci eu lobortis elementum nibh tellus. Mollis nunc sed id semper risus in hendrerit gravida. Vitae tempus quam pellentesque nec nam aliquam. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Faucibus et molestie ac feugiat. Vestibulum rhoncus est pellentesque elit. Arcu dictum varius duis at. Convallis convallis tellus id interdum velit laoreet id donec. Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Integer malesuada nunc vel risus commodo viverra maecenas. Fusce id velit ut tortor pretium viverra suspendisse. Blandit aliquam etiam erat velit. Maecenas sed enim ut sem viverra aliquet eget sit amet.
-
-        Sollicitudin aliquam ultrices sagittis orci. Tellus mauris a diam maecenas sed enim. Eget nunc scelerisque viverra mauris in aliquam sem. Id velit ut tortor pretium viverra suspendisse potenti nullam. Non nisi est sit amet. Donec ultrices tincidunt arcu non. Lectus proin nibh nisl condimentum id venenatis a. Nisi quis eleifend quam adipiscing vitae proin. Felis imperdiet proin fermentum leo vel orci. Auctor neque vitae tempus quam pellentesque nec nam. Sit amet commodo nulla facilisi nullam vehicula. Quam quisque id diam vel quam elementum pulvinar etiam. Vulputate dignissim suspendisse in est ante in. Quis vel eros donec ac odio. Amet porttitor eget dolor morbi non arcu. Malesuada pellentesque elit eget gravida. Vel facilisis volutpat est velit. Maecenas accumsan lacus vel facilisis. Penatibus et magnis dis parturient.
-      </p>
-
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo urna molestie at elementum. Ipsum dolor sit amet consectetur adipiscing elit. At in tellus integer feugiat. Cras pulvinar mattis nunc sed. Vitae auctor eu augue ut lectus. Facilisi cras fermentum odio eu feugiat pretium. Turpis massa sed elementum tempus egestas sed. In aliquam sem fringilla ut. Nec feugiat in fermentum posuere urna. Risus sed vulputate odio ut enim blandit volutpat maecenas. Tortor id aliquet lectus proin nibh nisl condimentum. Tristique senectus et netus et. Accumsan lacus vel facilisis volutpat est. Orci dapibus ultrices in iaculis nunc sed augue lacus. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Tincidunt vitae semper quis lectus nulla at volutpat diam ut. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Cursus risus at ultrices mi tempus.
-
-        Parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer. Quam quisque id diam vel quam elementum. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Velit scelerisque in dictum non. Lorem ipsum dolor sit amet. Tortor posuere ac ut consequat semper viverra. Enim sit amet venenatis urna. Purus non enim praesent elementum facilisis. Gravida arcu ac tortor dignissim. Eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Vehicula ipsum a arcu cursus vitae congue. Risus commodo viverra maecenas accumsan lacus vel facilisis. Sed risus ultricies tristique nulla aliquet enim. Tincidunt id aliquet risus feugiat in.
-
-        Arcu cursus vitae congue mauris rhoncus. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Arcu odio ut sem nulla. Sed odio morbi quis commodo odio. Senectus et netus et malesuada fames ac turpis. Senectus et netus et malesuada fames. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Venenatis cras sed felis eget velit aliquet sagittis. Eget mauris pharetra et ultrices neque ornare aenean. Diam maecenas ultricies mi eget mauris. Egestas sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor eget dolor morbi non arcu risus quis varius quam. Erat nam at lectus urna duis. Nibh tellus molestie nunc non. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Tincidunt id aliquet risus feugiat in ante metus. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Id velit ut tortor pretium viverra suspendisse potenti nullam ac.
-
-        At tempor commodo ullamcorper a lacus vestibulum sed arcu non. Leo vel orci porta non pulvinar neque laoreet. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Tempor orci eu lobortis elementum nibh tellus. Mollis nunc sed id semper risus in hendrerit gravida. Vitae tempus quam pellentesque nec nam aliquam. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Faucibus et molestie ac feugiat. Vestibulum rhoncus est pellentesque elit. Arcu dictum varius duis at. Convallis convallis tellus id interdum velit laoreet id donec. Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Integer malesuada nunc vel risus commodo viverra maecenas. Fusce id velit ut tortor pretium viverra suspendisse. Blandit aliquam etiam erat velit. Maecenas sed enim ut sem viverra aliquet eget sit amet.
-
-        Sollicitudin aliquam ultrices sagittis orci. Tellus mauris a diam maecenas sed enim. Eget nunc scelerisque viverra mauris in aliquam sem. Id velit ut tortor pretium viverra suspendisse potenti nullam. Non nisi est sit amet. Donec ultrices tincidunt arcu non. Lectus proin nibh nisl condimentum id venenatis a. Nisi quis eleifend quam adipiscing vitae proin. Felis imperdiet proin fermentum leo vel orci. Auctor neque vitae tempus quam pellentesque nec nam. Sit amet commodo nulla facilisi nullam vehicula. Quam quisque id diam vel quam elementum pulvinar etiam. Vulputate dignissim suspendisse in est ante in. Quis vel eros donec ac odio. Amet porttitor eget dolor morbi non arcu. Malesuada pellentesque elit eget gravida. Vel facilisis volutpat est velit. Maecenas accumsan lacus vel facilisis. Penatibus et magnis dis parturient.
-      </p>
     </section>
 
   </div>
@@ -174,6 +285,21 @@
 <style scoped lang="scss">
   @import '../assets/style/mq';
   @import '../assets/style/type';
+
+  .photo-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .img-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    margin-bottom: 28px;
+
+    img { cursor: pointer; width: 84%; border-radius: 4px; transition: transform 500ms ease, box-shadow 200ms ease; }
+    img:hover { transform: translateY(-8px); box-shadow: 0px 32px 56px -38px rgba(0,0,0,.2); }
+  }
 
   .albums-photos {
     display: flex;
@@ -190,7 +316,7 @@
   .albums {
     @include breakpoint(mdl) {
       padding: 75px 16px 0 16px;
-      max-width: 300px; width: 33%; height: 100vh;
+      max-width: 280px; width: 33%; height: 100vh;
       overflow-y: scroll;
     }
   }
